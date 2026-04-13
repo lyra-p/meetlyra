@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEET LYRA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .gif-wrapper {
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: inline-block;
+        }
+
+        .gif-wrapper:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+        }
+
+        .gif-placeholder {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, #333, #555);
+            border: 2px solid #666;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 16px;
+        }
+
+        .gif-placeholder img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 13px;
+        }
+
+        .text {
+            color: #fff;
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gif-wrapper" onclick="window.location.href='https://t.me/+XEKs2BAyLLM0OTVh'">
+            <div class="gif-placeholder">
+                <!-- SUBSTITUA SRC PELA SUAS GIF -->
+                <img src="gif/Novo projeto [75CE092].gif" alt="gif/Novo Projeto [75CE092].gif">
+            </div>
+        </div>
+        <p class="text">CLIQUE ACIMA.</p>
+    </div>
+</body>
+</html>
